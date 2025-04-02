@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="tuyshs.css">
+  <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Trebuchet+MS&display=swap">
+  <title>TSHS Events</title>
+</head>
+<body>
+    <div class="header">
+        <a href="index.html"><img src="logo/LOGO TSHSS.png" alt="image"></a>
+        &nbsp
+        <h1>Tuy Senior High School</h1>
+    </div>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <div class="dropdown">
+            <a href="#" onclick="myFunction('dropdown1'); event.preventDefault();" class="dropbtn">About Us +</a>
+            <div id="dropdown1" class="dropdown-content">
+                <a href="History.html">History</a>
+                <a href="vmc.html">Mission, Vision, and Core Values</a>
+                <a href="Teachers.htm">School Personnel</a>
+                <a href="fac.html">Facilities</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#" onclick="myFunction('dropdown2'); event.preventDefault();" class="dropbtn">Tracks +</a>
+            <div id="dropdown2" class="dropdown-content">
+                <a href="ACA.html">Academic </a>
+                <a href="tvl.html">TVL </a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#" onclick="myFunction('dropdown3'); event.preventDefault();" class="dropbtn">More +</a>
+            <div id="dropdown3" class="dropdown-content">
+                <a href="News.html">News</a>
+                <a href="announce.html">Announcements</a>
+                <a href="events.html">Events</a>
+                <a href="Developers.html">Developers</a>
+            </div>
+        </div>
+    </div>
+  <div class="eventsContent">
+    <div class="container">
+      <h1>Events</h1>
+      <div class="event">
+        <h2>Kambingan Festival</h2>
+        <p><span class="date">June 06, 2023</span> | <span class="location">Tuy,Batangas</span></p>
+      </div>
+      <div class="event">
+        <h2>Grade 12 4th Quarter Exam</h2>
+        <p><span class="date">June 22-23, 2023</span> | <span class="location">Tuy, Batangas</span></p>
+      </div>
+      <div class="event">
+        <h2>Grade 11 4th Quarter Exam</h2>
+        <p><span class="date">June 29-30 2023</span> | <span class="location">Tuy, Batangas</span></p>
+      </div>
+      <div class="event">
+        <h2>Showtime Senior High</h2>
+        <p><span class="date">June 16,2023</span> | <span class="location">Tuy, Batangas</span></p>
+      </div>
+      <div class="event">
+        <h2>Graduation Day</h2>
+        <p><span class="date">July 12,2023</span> | <span class="location">Tuy, Batangas</span></p>
+      </div>
+      <div class="event">
+        <h2>Recognition Day</h2>
+        <p><span class="date">TBA</span> | <span class="location">Tuy, Batangas</span></p>
+      </div>
+    </div>
+  </div>
+    <div class="footer">
+        <div class="contact-info">
+            <div class="bar">&nbsp</div>
+            <div class="logo">
+                <div class="icon"><img src="logo/Deped.png" /></div>
+                <div class="icon"><img src="logo/calabarzon.png" /></div>
+                <div class="icon"><img src="logo/Batangas.png" /></div>
+                <div class="icon"><img src="logo/tuy.png" /></div>
+            </div>
+            <div class="contact-info-text">
+                <p>Email: <a href="mailto:example.example.com">342207@deped.gov.ph</a>&nbsp&nbsp</p>
+                <p>Phone: <a href="tel:1234567890">0927-289-0022</a>&nbsp&nbsp</p>
+                <p>Address: <a href="https://goo.gl/maps/PxFLgto3NFiVHWbZ6" target="_blank">Luna St., Tuy, Batangas</a></p>
+            </div>
+            <div class="bar">&nbsp</div>
+        </div>
+    </div>
+  <script src="script.js"></script>
+  <script>
+    // Show the loading screen
+document.getElementById("loading-screen").style.display = "flex";
+
+// Hide the loading screen after 5 seconds
+setTimeout(function() {
+  document.getElementById("loading-screen").style.display = "none";
+}, 1500);
+
+  </script>
+</body>
+</html>
